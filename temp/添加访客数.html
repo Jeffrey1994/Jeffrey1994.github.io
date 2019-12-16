@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="配置LeanCloudhttps:&#x2F;&#x2F;leancloud.cn注册打开LeanCloud官网，进入注册页面注册。完成邮箱激活后，点击头像，进入控制台页面， 创建新应用创建一个新应用(类型为JavaScript SDK)，点击应用进入；创建名称为Counter的Class 修改配置文件编辑网站根目录下的_config.yml文件，添加如下： add post viewsleancloud_visit">
+<meta property="og:type" content="website">
+<meta property="og:title" content="维多利亚骚年">
+<meta property="og:url" content="https:&#x2F;&#x2F;jeffrey1994.github.io&#x2F;temp&#x2F;%E6%B7%BB%E5%8A%A0%E8%AE%BF%E5%AE%A2%E6%95%B0.html">
+<meta property="og:site_name" content="维多利亚骚年">
+<meta property="og:description" content="配置LeanCloudhttps:&#x2F;&#x2F;leancloud.cn注册打开LeanCloud官网，进入注册页面注册。完成邮箱激活后，点击头像，进入控制台页面， 创建新应用创建一个新应用(类型为JavaScript SDK)，点击应用进入；创建名称为Counter的Class 修改配置文件编辑网站根目录下的_config.yml文件，添加如下： add post viewsleancloud_visit">
+<meta property="article:published_time" content="2019-12-16T00:53:20.746Z">
+<meta property="article:modified_time" content="2018-06-14T07:16:20.305Z">
+<meta property="article:author" content="哒哒哒">
+<meta property="article:tag" content="私人定制">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://jeffrey1994.github.io/temp/添加访客数.html"/>
+
+
+
+
+
+  <title> | 维多利亚骚年</title>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?802d2f1b54a30feeb8ac59b01dda9a1d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+<meta name="generator" content="Hexo 4.1.1"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">维多利亚骚年</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">如果总是等待绝对的一切就绪，那将永远无法开始</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+	<h1 class="post-title" itemprop="name headline"></h1>
+
+
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <p>配置LeanCloud<br><a href="https://leancloud.cn" target="_blank" rel="noopener">https://leancloud.cn</a><br>注册<br>打开LeanCloud官网，进入注册页面注册。完成邮箱激活后，点击头像，进入控制台页面，</p>
+<p>创建新应用<br>创建一个新应用(类型为JavaScript SDK)，点击应用进入；<br>创建名称为Counter的Class</p>
+<p>修改配置文件<br>编辑网站根目录下的_config.yml文件，添加如下：</p>
+<h1 id="add-post-views"><a href="#add-post-views" class="headerlink" title="add post views"></a>add post views</h1><p>leancloud_visitors:<br>  enable: true<br>  app_id: <strong>你的app_id</strong><br>  app_key: <strong>你的app_key</strong></p>
+<p>其中，app_id和app_key在你所创建的应用的设置-&gt;应用Key中。<br>Web安全性<br>为了保证应用的统计计数功能仅应用于自己的博客系统，你可以在应用-&gt;设置-&gt;安全中心的Web安全域名中加入自己的博客域名，以保证数据的调用安全。<br>修改NexT主题文件<br>添加lean-analytics.swig文件<br>在主题目录下的\layout_scripts路径下，新建一个名称为lean-analytics.swig的文件，并添加如下内容：<br>12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182 <!-- custom analytics part create by xiamo --><script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script><script>AV.initialize("", "");</script><script>function showTime(Counter) {    var query = new AV.Query(Counter);    $(".leancloud_visitors").each(function() {        var url = $(this).attr("id").trim();        query.equalTo("url", url);        query.find({            success: function(results) {                if (results.length == 0) {                    var content = '0 ' + $(document.getElementById(url)).text();                    $(document.getElementById(url)).text(content);                    return;                }                for (var i = 0; i < results.length; i++) {                    var object = results[i];                    var content = object.get('time') + ' ' + $(document.getElementById(url)).text();                    $(document.getElementById(url)).text(content);                }            },            error: function(object, error) {                console.log("Error: " + error.code + " " + error.message);            }        });    });}function addCount(Counter) {    var Counter = AV.Object.extend("Counter");    url = $(".leancloud_visitors").attr('id').trim();    title = $(".leancloud_visitors").attr('data-flag-title').trim();    var query = new AV.Query(Counter);    query.equalTo("url", url);    query.find({        success: function(results) {            if (results.length > 0) {                var counter = results[0];                counter.fetchWhenSave(true);                counter.increment("time");                counter.save(null, {                    success: function(counter) {                        var content =  counter.get('time') + ' ' + $(document.getElementById(url)).text();                        $(document.getElementById(url)).text(content);                    },                    error: function(counter, error) {                        console.log('Failed to save Visitor num, with error message: ' + error.message);                    }                });            } else {                var newcounter = new Counter();                newcounter.set("title", title);                newcounter.set("url", url);                newcounter.set("time", 1);                newcounter.save(null, {                    success: function(newcounter) {                        console.log("newcounter.get('time')="+newcounter.get('time'));                        var content = newcounter.get('time') + ' ' + $(document.getElementById(url)).text();                        $(document.getElementById(url)).text(content);                    },                    error: function(newcounter, error) {                        console.log('Failed to create');                    }                });            }        },        error: function(error) {            console.log('Error:' + error.code + " " + error.message);        }    });}$(function() {    var Counter = AV.Object.extend("Counter");    if ($('.leancloud_visitors').length == 1) {        addCount(Counter);    } else if ($('.post-title-link').length > 1) {        showTime(Counter);    }}); </script><br>其中，控制显示的格式的主要为content变量，按自己的需求相应修改即可。<br>修改post.swig文件<br>在主题的layout_macro路径下，编辑post.swig文件，找到相应的插入位置（大概在98行左右）：</p>
+<p>插入如下代码<br>123456 修改layout.swig文件在主题目录下的layout目录下，编辑_layout.swig文件，在</body>的上方（大概在70行左右）插入如下代码：123 <br>修改语言配置文件<br>如果你的网站使用的是英语，则只需要编辑主题目录下的languages\en.yml文件，增加post字段如下：<br>post:<br>  sticky: Sticky<br>  posted: Posted on<br>  visitors: Views // 增加的字段<br>  …</p>
+<p>如果网站使用的是中文，则编辑languages\zh-Hans.yml文件，相应的增加<br>post:<br>  posted: 发表于<br>  visitors: 阅读次数<br>  …</p>
+<p>其他语言与之类似，将visitors设置成你希望翻译的字段。<br>最后，重新生成并部署你的网站即可。<br>增加网站的浏览次数与访客数量统计功能<br>网站的浏览次数，即pv；网站的访客数为uv。pv的计算方式是，单个用户连续点击n篇文章，记录n次访问量；uv的计算方式是，单个用户连续点击n篇文章，只记录1次访客数。你可以根据需要添加相应的统计功能。<br>安装busuanzi.js脚本<br>如果你使用的是NexT主题（其他主题类似），打开/theme/next/layout/_partial/footer.swig文件，拷贝下面的代码至文件的开头。<br>12 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><br>显示统计标签<br>同样编辑/theme/next/layout/_partial/footer.swig文件。<br>如果你想要显示pv统计量，复制以下代码至你想要放置的位置，<br>123 <span id="busuanzi_container_site_pv">    本站总访问量<span id="busuanzi_value_site_pv"></span>次</span><br>如果你想要显示uv统计量，复制以下代码至你想要放置的位置，<br>123 <span id="busuanzi_container_site_uv">  本站访客数<span id="busuanzi_value_site_uv"></span>人次</span><br>你可以自己修改文字样式，效果图如下：</p>
+<hr>
+
+        
+      </div>
+      
+      
+      
+    </div>
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/1.png"
+                alt="哒哒哒" />
+            
+              <p class="site-author-name" itemprop="name">哒哒哒</p>
+              <p class="site-description motion-element" itemprop="description">个人博客</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://kevin_chaos.coding.me/" title="Chaos" target="_blank">Chaos</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#add-post-views"><span class="nav-number">1.</span> <span class="nav-text">add post views</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">哒哒哒</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+  <span id="busuanzi_container_site_uv">
+	访客数：<span id="busuanzi_value_site_uv"></span>
+  </span>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'jul5kyHyaOUFgcFyz6CohNSA-gzGzoHsz',
+        appKey: '95kUfzmTwjISTPiIqGJ8JOim',
+        placeholder: '想对作者说些什么',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
